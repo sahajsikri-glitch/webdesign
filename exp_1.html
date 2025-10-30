@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Global Daily News</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 0;
+        background: #eee;
+      }
+      .page {
+        /* max-width: 400px; */
+        margin: auto;
+        background: #fff;
+      }
+      header {
+        background: #555;
+        color: #fff;
+        padding: 8px;
+        text-align: center;
+        font-size: 14px;
+      }
+      nav {
+        background: #ddd;
+        padding: 8px;
+        text-align: center;
+      }
+      nav a {
+        margin: 0 6px;
+        color: #0066cc;
+        text-decoration: none;
+        font-size: 14px;
+      }
+      .section {
+        padding: 16px;
+        border-bottom: 1px solid #ddd;
+      }
+      .section h2 {
+        font-size: 18px;
+        margin-bottom: 8px;
+      }
+      .section p {
+        font-size: 14px;
+        margin-bottom: 12px;
+      }
+      .hero {
+        background: #b00;
+        color: #fff;
+        padding: 40px 20px;
+        text-align: center;
+      }
+      .hero h1 {
+        font-size: 48px;
+        margin: 0;
+        line-height: 1;
+      }
+      .hero a {
+        color: #fff;
+      }
+      .video {
+        background: #f5f5f5;
+        border: 1px solid #ccc;
+        padding: 12px;
+        margin: 12px 0;
+        position: relative;
+      }
+      .play {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #c00;
+        color: #fff;
+        border: none;
+        border-radius: 50%;
+        width: 48px;
+        height: 48px;
+        font-size: 24px;
+      }
+      .ad {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #333;
+        color: #fff;
+        padding: 12px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        font-size: 14px;
+      }
+      .ad img {
+        width: 48px;
+        height: 48px;
+      }
+      .ad .dl {
+        background: #0a0;
+        color: #fff;
+        padding: 6px 16px;
+        border-radius: 4px;
+        margin-left: auto;
+      }
+      .ad .close {
+        background: none;
+        border: none;
+        color: #fff;
+        font-size: 20px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <!-- First screen -->
+      <header>08:32 Global Daily News</header>
+      <nav>
+        <a href="#">World</a> | <a href="#">Sports</a> |
+        <a href="#">Entertainment</a> | <a href="#">Podcast</a> |
+        <a href="#">Contact</a>
+      </nav>
+
+      <div class="section">
+        <h2>World News</h2>
+        <p>
+          Today's top headline: Global leaders meet to discuss climate change
+          initiatives.
+        </p>
+
+        <div class="hero">
+          <h1>BBC<br />WORLD<br />NEWS</h1>
+          <p>Read more on <a href="#">BBC</a></p>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Sports Update</h2>
+        <p>
+          Highlights of yesterday’s football match with thrilling last-minute
+          goals!
+        </p>
+
+        <div class="video">
+          <div style="background: #ddd; height: 180px"></div>
+          <button class="play">Play</button>
+          <p style="margin-top: 8px; font-size: 13px">
+            Big Buck Bunny 60fps 4K - Official Blender Foundation Short...
+          </p>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Entertainment Buzz</h2>
+        <p>New movie trailer released today. Fans are excited!</p>
+      </div>
+
+      <!-- Second screen (just the remaining part) -->
+      <div class="section">
+        <h2>News Podcast</h2>
+        <p>Listen to today’s top headlines:</p>
+        <div
+          style="
+            background: #eee;
+            padding: 8px;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+          "
+        >
+          <button style="background: none; border: none; font-size: 18px">
+            Play
+          </button>
+          <div
+            style="flex: 1; height: 4px; background: #ccc; border-radius: 2px"
+          ></div>
+          <span>0:00 / 0:00</span>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>Contact Us</h2>
+        <p>Email: info@globalnews.com</p>
+      </div>
+
+      <footer
+        style="text-align: center; padding: 16px; font-size: 12px; color: #555"
+      >
+        © 2025 Global Daily News
+      </footer>
+    </div>
+  </body>
+</html>
